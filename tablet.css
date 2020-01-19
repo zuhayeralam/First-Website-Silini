@@ -1,0 +1,50 @@
+.menu {
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.menu > div {
+   margin-top: 10vh;
+   margin-left: 2vh;
+}
+.menu + div {
+   top:-1vh;
+   left:-22vw;
+   border-radius: 0;
+   height: 100vh;
+   width: 20vw;
+}
+
+.hamburger .toggler:checked ~ .menu + div{
+width: 50vw;
+height: 100vh;
+}
+
+.aboutcase .contentoverlay section {
+   font-size: 2rem;
+}
+
+.aboutcase  p {
+   font-size: 1.4rem;
+   line-height: 2rem;
+}
+.aboutcase .contentoverlay section img {
+   margin-top: 0;
+   height: 50%;
+}
+
+.aboutcase + div div:first-child p {
+   font-size: 1.3rem;
+   margin-bottom: .5rem;
+}
+.aboutcase + div div:nth-child(2) p{
+   font-size: 1.3rem;
+   margin-bottom: 2rem;
+}
+.menu-card {
+   grid-template-columns: 2fr 2fr;
+}
+
+.contactcase > .cardThree {
+   width: 50%;
+}
